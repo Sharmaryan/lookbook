@@ -1,8 +1,7 @@
 import { useRef } from "react";
 import { Autoplay, FreeMode, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
+
 export const InnerImages = ({
   images,
 }: {

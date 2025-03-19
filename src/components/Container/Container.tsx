@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { containerMock } from "./Container.mock";
 import { Mousewheel } from "swiper/modules";
 import { InnerImages } from "../InnerImages/InnerImages";
-import "swiper/css";
+import "swiper/swiper-bundle.css";
 
 export const Container = () => {
   return (
